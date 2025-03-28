@@ -74,10 +74,9 @@ If you'd like to improve our documentation:
 
 ## Contact Information
 
-For urgent issues requiring immediate attention or cases where you need to share sensitive information, please contact us through our secure channels:
+For urgent issues requiring immediate attention or cases where you need to share sensitive information, please contact us through our secure channel:
 
-- Email: support@opsbeacon.example.com (replace with your actual support email)
-- Support Portal: https://support.opsbeacon.example.com (replace with your actual support URL)
+- Email: support@opsbeacon.com
 
 ## Service Level Agreements
 
