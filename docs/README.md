@@ -1,8 +1,24 @@
 # OpsBeacon Documentation
 
-This directory contains the official documentation for OpsBeacon in Markdown format.
+## What is OpsBeacon?
 
-## Structure
+OpsBeacon is an AI-powered Security Operations Center (SOC) solution designed to revolutionize security operations through automation and artificial intelligence. It acts as a tireless, autonomous SOC analyst, available 24/7 to manage your security tools, detect and respond to threats in real-time, and streamline complex workflows into simple, automated processes.
+
+Key features of OpsBeacon include:
+
+- **AI-Powered Automation:** It transforms security operations by automating manual tasks, enabling faster and more efficient incident response.
+
+- **Zero-Trust Access:** Minimizes human interaction to reduce vulnerabilities while ensuring intelligent and secure access control.
+
+- **Intelligent Data Processing:** Converts vast volumes of security data into actionable insights in real time.
+
+- **Seamless Integrations:** Supports connections with over 100 security platforms to ensure comprehensive protection.
+
+- **Autonomous Operations:** Coordinates across all your security tools, providing enterprise-grade security and simplifying operational complexities.
+
+OpsBeacon is trusted by leading security teams to reduce the threat surface, eliminate vulnerabilities caused by human error, and create a more secure and resilient environment. It combines the best of AI, automation, and human expertise to deliver a future where security operations are managed through simple, conversational interactions with AI agents.
+
+## Documentation Structure
 
 The documentation is organized into the following sections:
 
@@ -39,10 +55,6 @@ When creating or editing documentation, please follow these guidelines:
 3. For code examples, use fenced code blocks with appropriate language specification
 4. Include screenshots when helpful (place in an `images` directory in the relevant section)
 5. Link to related documentation when appropriate
-
-## Building the Documentation
-
-The Markdown files in this repository can be used with various documentation tools. Instructions for building the documentation website will be provided separately.
 
 ---
 
