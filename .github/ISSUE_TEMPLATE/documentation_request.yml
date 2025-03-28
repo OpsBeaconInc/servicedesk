@@ -1,0 +1,110 @@
+name: Documentation Request
+description: Request improvements or additions to OpsBeacon documentation
+title: "[DOCS] "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Documentation Request
+        Help us improve OpsBeacon's documentation!
+        
+        **REMINDER: This is a public repository. DO NOT include sensitive information such as API keys, credentials, internal URLs, or customer data.**
+
+  - type: textarea
+    id: documentation-request
+    attributes:
+      label: Documentation Request
+      description: Describe what documentation needs to be added, updated, or clarified
+      placeholder: The documentation for... needs to be...
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-documentation
+    attributes:
+      label: Current Documentation
+      description: If applicable, link to or describe the current documentation and its limitations
+      placeholder: The current documentation at... is limited because...
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed-changes
+    attributes:
+      label: Proposed Changes
+      description: Describe the changes or additions you'd like to see
+      placeholder: I'd like the documentation to include...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: doc-area
+    attributes:
+      label: Documentation Area
+      description: Which area of documentation does this request relate to?
+      options:
+        - Getting Started
+        - Workflows
+        - Commands
+        - AWS Integration
+        - Google Integration
+        - Slack Integration
+        - Agent Service
+        - Event Logs
+        - Storage
+        - Users and Permissions
+        - Triggers
+        - Webhooks
+        - Cron Jobs
+        - API Reference
+        - Troubleshooting
+        - Other (please specify in Additional Context)
+    validations:
+      required: true
+
+  - type: textarea
+    id: why-needed
+    attributes:
+      label: Why This Is Needed
+      description: Explain why this documentation improvement is important
+      placeholder: This documentation is important because...
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: willing-to-contribute
+    attributes:
+      label: I'm Willing To Contribute
+      description: Let us know if you're willing to contribute to this documentation improvement
+      options:
+        - label: I'm willing to submit a PR with these changes
+        - label: I can review changes for technical accuracy
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this documentation change?
+      options:
+        - Critical - Documentation is missing or incorrect, affecting product use
+        - High - Important information is unclear or difficult to find
+        - Medium - Documentation could be more helpful or comprehensive
+        - Low - Minor improvements or enhancements
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context or screenshots about the documentation request here
+      placeholder: Any other details that might be helpful...
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **REMINDER: This is a public repository. DO NOT include sensitive information such as API keys, credentials, internal URLs, or customer data.**

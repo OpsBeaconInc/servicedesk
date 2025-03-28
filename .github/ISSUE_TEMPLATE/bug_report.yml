@@ -1,0 +1,148 @@
+name: Bug Report
+description: Report a bug or issue with OpsBeacon
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Bug Report
+        Thanks for taking the time to fill out this bug report!
+        
+        **REMINDER: This is a public repository. DO NOT include sensitive information such as API keys, credentials, internal URLs, or customer data.**
+
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: Provide a clear and concise description of the bug
+      placeholder: When I try to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Detailed steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen
+      placeholder: I expected the system to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: What actually happened
+      placeholder: Instead, the system...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      description: Where does this issue occur?
+      options:
+        - Production
+        - Staging
+        - Development
+        - Testing
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: OpsBeacon Version
+      description: What version of OpsBeacon are you using?
+      placeholder: e.g., 2.4.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: Browser
+      description: Which browsers have you seen the problem on?
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Other (please specify in Additional Context)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating System
+      description: Which operating system are you using?
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other (please specify in Additional Context)
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem (remember to redact any sensitive information)
+      placeholder: You can paste images directly here!
+    validations:
+      required: false
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      description: How is this bug affecting your use of the product?
+      options:
+        - Critical - Cannot use the product
+        - High - Major feature is broken
+        - Medium - Feature works partially
+        - Low - Minor inconvenience
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Workaround
+      description: Is there any workaround you're currently using?
+      placeholder: Currently, I'm working around this issue by...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here
+      placeholder: Any other details you think might be helpful...
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **REMINDER: This is a public repository. DO NOT include sensitive information such as API keys, credentials, internal URLs, or customer data.**

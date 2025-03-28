@@ -1,0 +1,107 @@
+name: General Question
+description: Ask a question about using OpsBeacon
+title: "[QUESTION] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # General Question
+        We're happy to help with any questions you have about OpsBeacon!
+        
+        **REMINDER: This is a public repository. DO NOT include sensitive information such as API keys, credentials, internal URLs, or customer data.**
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Clearly state your question about OpsBeacon
+      placeholder: How do I...?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Provide any relevant context for your question
+      placeholder: I'm trying to accomplish...
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-tried
+    attributes:
+      label: What I've Tried
+      description: Describe what you've already tried or what documentation you've already consulted
+      placeholder: I've already looked at...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which part of OpsBeacon is your question about?
+      options:
+        - Commands
+        - Workflows
+        - Integrations
+        - Agent
+        - Event Logs
+        - Storage
+        - Users and Permissions
+        - Triggers
+        - Webhooks
+        - Cron Jobs
+        - Other (please specify in Additional Information)
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: OpsBeacon Version
+      description: What version of OpsBeacon are you using?
+      placeholder: e.g., 2.4.1
+    validations:
+      required: false
+
+  - type: dropdown
+    id: user-type
+    attributes:
+      label: User Type
+      description: What is your role or how do you use OpsBeacon?
+      options:
+        - Admin
+        - Regular User
+        - Developer
+        - Security Analyst
+        - DevOps Engineer
+        - Other (please specify in Additional Information)
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (if relevant)
+      description: Add screenshots to help explain your question if needed
+      placeholder: You can paste images directly here!
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional Information
+      description: Any additional information that might help us answer your question
+      placeholder: Any other details that might be helpful...
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **REMINDER: This is a public repository. DO NOT include sensitive information such as API keys, credentials, internal URLs, or customer data.**

@@ -1,0 +1,187 @@
+name: Performance Issue
+description: Report performance problems with OpsBeacon
+title: "[PERFORMANCE] "
+labels: ["performance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Performance Issue Report
+        Help us improve OpsBeacon's performance!
+        
+        **REMINDER: This is a public repository. DO NOT include sensitive information such as API keys, credentials, internal URLs, or customer data.**
+
+  - type: textarea
+    id: performance-issue
+    attributes:
+      label: Performance Issue Description
+      description: Provide a clear description of the performance issue
+      placeholder: The system is slow when...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Detailed steps to reproduce the performance problem
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Perform action '....'
+        4. Observe slow performance
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-performance
+    attributes:
+      label: Expected Performance
+      description: What performance did you expect?
+      placeholder: The operation should complete in approximately...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-performance
+    attributes:
+      label: Actual Performance
+      description: What performance did you observe? Please be as specific as possible with metrics (load times, etc.)
+      placeholder: The operation actually takes about... seconds/minutes
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: OpsBeacon Version
+      description: What version of OpsBeacon are you using?
+      placeholder: e.g., 2.4.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser
+      description: Which browser are you using?
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Other (please specify in Additional Context)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating System
+      description: Which operating system are you using?
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other (please specify in Additional Context)
+    validations:
+      required: false
+
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      description: What type of device are you using?
+      options:
+        - Desktop/Laptop
+        - Tablet
+        - Mobile Phone
+        - Other (please specify in Additional Context)
+    validations:
+      required: false
+
+  - type: input
+    id: network
+    attributes:
+      label: Network Conditions
+      description: What are your network conditions like (if relevant)?
+      placeholder: e.g., high-speed corporate network, home WiFi, etc.
+    validations:
+      required: false
+
+  - type: textarea
+    id: scale-info
+    attributes:
+      label: Scale Information
+      description: Information about the scale at which you're using the product
+      placeholder: |
+        Number of users: 
+        Data volume: 
+        Concurrent operations: 
+        Other relevant scale information:
+    validations:
+      required: false
+
+  - type: dropdown
+    id: timing
+    attributes:
+      label: Timing
+      description: When did you first notice this issue?
+      options:
+        - Just started happening today
+        - Started happening this week
+        - Has been happening for weeks
+        - Has been happening for months
+        - Has always been this way
+    validations:
+      required: false
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Frequency
+      description: How often does this performance issue occur?
+      options:
+        - Always (100% of the time)
+        - Frequently (more than 50% of the time)
+        - Sometimes (less than 50% of the time)
+        - Rarely (only in specific circumstances)
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or Recordings
+      description: If applicable, add screenshots, recordings, or performance traces
+      placeholder: You can paste images directly here!
+    validations:
+      required: false
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impact
+      description: How is this performance issue affecting your use of the product?
+      options:
+        - Critical - Rendering the product unusable
+        - High - Significantly hindering productivity
+        - Medium - Causing noticeable delays but work can continue
+        - Low - Minor inconvenience
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the performance issue here
+      placeholder: Any other details that might be helpful...
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **REMINDER: This is a public repository. DO NOT include sensitive information such as API keys, credentials, internal URLs, or customer data.**
