@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: OpsBeacon Support
+    url: https://support.opsbeacon.example.com
+    about: For urgent issues requiring immediate attention or cases where you need to share sensitive information, please contact us through our secure support portal.
+  - name: OpsBeacon Documentation
+    url: https://docs.opsbeacon.example.com
+    about: Check our documentation for guides, tutorials, and API reference.
