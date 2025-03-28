@@ -58,15 +58,6 @@ body:
     validations:
       required: false
 
-  - type: input
-    id: version
-    attributes:
-      label: OpsBeacon Version
-      description: What version of OpsBeacon are you using?
-      placeholder: e.g., 2.4.1
-    validations:
-      required: false
-
   - type: dropdown
     id: user-type
     attributes:

@@ -52,28 +52,6 @@ body:
       required: true
 
   - type: dropdown
-    id: environment
-    attributes:
-      label: Environment
-      description: Where does this issue occur?
-      options:
-        - Production
-        - Staging
-        - Development
-        - Testing
-    validations:
-      required: true
-
-  - type: input
-    id: version
-    attributes:
-      label: OpsBeacon Version
-      description: What version of OpsBeacon are you using?
-      placeholder: e.g., 2.4.1
-    validations:
-      required: true
-
-  - type: dropdown
     id: browsers
     attributes:
       label: Browser
