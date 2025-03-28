@@ -8,7 +8,7 @@ Go to IAM roles and create roles, in the create roles we will have AWS account w
 
 Example:
 
-![TrustedEntity](/images/trusted-entity.png)
+![TrustedEntity](/docs/images/trusted-entity.png)
 
 ## 2. Add an AWS account
 
@@ -16,7 +16,7 @@ After selecting the AWS account option enter OpsBeacon AWS account id:
 
 Example:
 
-![RunParser](/images/aws-account.png)
+![RunParser](/docs/images/aws-account.png)
 
 ## 3. Attach a policy
 
@@ -54,7 +54,7 @@ After that attach any policy/permissions you want. For example to provide AWS SS
 
 Example:
 
-![RoleName](/images/role-name.png)
+![RoleName](/docs/images/role-name.png)
 
 Review the settings and policies attached to the role. Once confirmed, click "Create role" to finalize.
 
@@ -64,4 +64,4 @@ Copy the role ARN
 
 Example:
 
-![RoleARN](/images/role-arn.png)
+![RoleARN](/docs/images/role-arn.png)

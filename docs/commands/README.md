@@ -22,13 +22,13 @@ Perform SQL queries on your databases, enabling seamless data retrieval, updates
 
 Access and manage AWS services directly using predefined actions tailored for cloud automation. These predefined actions in OpsBeacon are given below:
 
-![NewCommand](/images/new_aws_command.png)
+![NewCommand](/docs/images/new_aws_command.png)
 
 Each action comes with built-in arguments available in the arguments section. If an action has required arguments, they will automatically appear as pre-selected in the arguments section upon selecting the command.
 
 For example, the `ec2-stop-instances` command requires the `instance-ids` argument. Both required and optional arguments are displayed as shown below:
 
-![AWSArgs](/images/aws_args.png)
+![AWSArgs](/docs/images/aws_args.png)
 
 As the name implies, AWS commands are exclusively compatible with AWS connections.
 
